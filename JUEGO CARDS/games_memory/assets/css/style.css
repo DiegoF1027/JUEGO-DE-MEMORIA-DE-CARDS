@@ -1,0 +1,82 @@
+@font-face {
+  font-family: '8bit';
+  src: url('../fonts/8bitOperatorPlus-Bold.ttf') format('truetype'),
+}
+
+.contCard {
+  cursor: pointer;
+}
+
+body {
+  background-image: url(../img/memory/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container1{
+  font-family: '8bit';
+  font-size: 1rem;
+}
+
+.tiempo{
+    margin-top: 2.7rem!important;
+}
+
+.progreso{
+  margin-top: 2.7rem!important;
+}
+
+.bg-danger{
+  color: black!important;
+  background-color: lightgray!important;
+}
+
+.container {
+  align-items: center;
+}
+
+.container h1 {
+  margin-left: 2rem;
+  animation: cambio-color 3.5s infinite alternate;
+  font-family: '8bit';
+}
+
+@keyframes cambio-color {
+  0% { color: red; } /* Cambia el color al inicio de la animación */
+  50% { color: blue; } /* Cambia el color a la mitad de la animación */
+  100% { color: green; } /* Cambia el color al final de la animación */
+} 
+
+.container button {
+  margin-bottom: 2.8rem;
+  margin-right: 2.8rem;
+  padding: 16px 20px 16px 20px;
+  border: 2px solid white;
+  font-weight: bold;
+  color: white;
+  transition: all 0.5 ease;
+  font-family: '8bit';
+}
+
+.facil:hover{
+  box-shadow: 0 0 10px #c6ff00;
+  color: #c6ff00;
+}
+
+.medio:hover{
+  box-shadow: 0 0 10px #ffea00;
+  color: #ffea00;
+}
+
+.dificil:hover{
+  box-shadow: 0 0 10px #d50000;
+  color: #d50000;
+}
+
+.card {
+  border: 2px solid white;
+  box-shadow: 0 0 10px white;
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+}
